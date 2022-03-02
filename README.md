@@ -1,6 +1,8 @@
 # Desafio de Projeto sobre Git/GitHub da DIO
 Repositório criado para o desafio de projeto.
+Contém exercícios práticos dos temas explorados ao longo do Bootcamp.
 
-##Links Úteis
+##Conteúdos
 
-[Sintaxe Basica Markdown](https://www.markdownguide.org/basic-syntax/)
+###HTML5 e CSS3
+###PHP
