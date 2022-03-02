@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="helle"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-31 11:33:24 "/>
+        <attribute name="created" value="aGVsbGU7TEFQVE9QLURBQUsxQjcwOzIwMjItMDEtMzE7IjExOjA4OjE3ICI7MjcwNg=="/>
+        <attribute name="edited" value="aGVsbGU7TEFQVE9QLURBQUsxQjcwOzIwMjItMDEtMzE7IjExOjMzOjI0ICI7MTsyODEw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="Nome" type="String" array="False" size=""/>
+            <declare name="idade" type="Integer" array="False" size=""/>
+            <output expression="&quot;Digite o seu nome completo:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot;Digite a sua idade&quot;" newline="True"/>
+            <input variable="idade"/>
+            <output expression="&quot;Ol&#225;! &quot; &amp; nome &amp; &quot; Voce realmente tem &quot; &amp; idade &amp; &quot; anos ?&quot;" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>

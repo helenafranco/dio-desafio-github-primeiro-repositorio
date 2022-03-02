@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="helle"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-01-31 11:47:33 "/>
+        <attribute name="created" value="aGVsbGU7TEFQVE9QLURBQUsxQjcwOzIwMjItMDEtMzA7IjA2OjEyOjIzICI7MjcwMQ=="/>
+        <attribute name="edited" value="aGVsbGU7TEFQVE9QLURBQUsxQjcwOzIwMjItMDEtMzE7IjExOjQ3OjMzICI7NTsyODE5"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="nota1, nota2, nota3, nota4, media" type="Real" array="False" size=""/>
+            <declare name="nome" type="String" array="False" size=""/>
+            <output expression="&quot;Ol&#225; Aluno! Digite seu nome completo:&quot;" newline="True"/>
+            <input variable="nome"/>
+            <output expression="&quot; Aluno &quot; &amp; nome &amp; &quot; digite sua nota do primeiro bimestre:&quot;" newline="True"/>
+            <input variable="nota1"/>
+            <output expression="&quot;Aluno &quot; &amp; nome &amp; &quot; digite sua nota do segundo bimestre:&quot;" newline="True"/>
+            <input variable="nota2"/>
+            <output expression="&quot;Aluno &quot; &amp; nome &amp; &quot; digite sua nota do terceiro bimestre:&quot;" newline="True"/>
+            <input variable="nota3"/>
+            <output expression="&quot;Aluno &quot; &amp; nome &amp; &quot; digite sua nota do quarto bimestre:&quot;" newline="True"/>
+            <input variable="nota4"/>
+            <assign variable="media" expression="(nota1+nota2+nota3+nota4)/4"/>
+            <output expression="&quot;Aluno &quot; &amp; nome &amp; &quot; sua media anual foi de: &quot; &amp; media" newline="True"/>
+            <if expression="media&gt;=7">
+                <then>
+                    <output expression="&quot;Aluno &quot; &amp; nome &amp; &quot; Parabens voce foi aprovado!&quot;" newline="True"/>
+                </then>
+                <else>
+                    <output expression="&quot;Aluno &quot; &amp; nome &amp; &quot; sua media anual foi insuficiente, infelizmente voce foi reprovado.&quot;" newline="True"/>
+                </else>
+            </if>
+        </body>
+    </function>
+</flowgorithm>
